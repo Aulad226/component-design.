@@ -1,0 +1,50 @@
+body{
+background-color: white;
+
+}
+
+.main-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  grid-gap: 2em;
+}
+.card {
+  background-color: #b3c2db;
+  border: 2px solid yellow;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 10px;
+
+}
+.card img{
+  width: 60%;
+  height:45%;
+
+}
+button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.A{
+  background-color: black;
+  color:white;
+
+}
+h2{
+  margin-top:5px;
+  margin-bottom: 20px;
+  background-color: #98a3d6;
+}
+.foot{
+  color:white;
+  background-color: #4b5066;
+  font-size:18px;
+  padding:1px;
+  margin-top: 20px;
+
+}
+.B{
+  margin-top: 5px;
+
+}
