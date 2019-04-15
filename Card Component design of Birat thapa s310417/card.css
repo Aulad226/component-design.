@@ -1,0 +1,145 @@
+card{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body
+{
+  font-family: Roboto, sans-serif;
+  background: #fff;
+}
+
+
+.grid-parent
+{
+    margin: 100px auto 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+    grid-gap: 3em;
+}
+
+
+.top-section1 img{
+  height:170px;
+  width: 300px;
+
+
+}
+.top-section2{
+  background: #e3e6ea;
+  padding: 10px;
+}
+
+
+
+
+.card-head img{
+
+  max-width:100%;
+  max-height:100%;
+
+
+
+}
+.headcontent{
+  height:100%;
+  width:100%;
+  padding: 10px;
+}
+.card{
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+a{
+  text-decoration: none;
+}
+.card
+{
+  height: inherit;
+  box-shadow: -5px 11px 1px rgba(0,0,0,0.3);
+}
+.card:hover{
+  transform: translate(5%,5%);
+
+}
+.card:hover ul{
+  opacity: 1;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.card-head
+{
+  position: relative;
+  height: 100%;
+  background: #fa782e;
+  background: -moz-linear-gradient(-45deg,  #fa782e 8%, #3e48a0 83%);
+  background: -webkit-linear-gradient(-45deg,  #fa782e 8%,#3e48a0 83%);
+  background: linear-gradient(135deg,  #fa782e 8%,#3e48a0 83%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa782e', endColorstr='#3e48a0',GradientType=1 );
+
+}
+.contentcaption{
+  height:100%;
+}
+.card ul{
+  opacity:0;
+  color:white;
+
+}
+
+
+
+
+
+
+.card-body
+{
+  height: 90%;
+  background: #302929;
+  padding: 10px;
+
+}
+
+.content-title
+{
+  padding: 20px 20px 5px 20px;
+  display: block;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.content-title b
+{
+  letter-spacing: 0px;
+  color: white;
+  margin-left: 40px;
+}
+
+
+
+.content-caption
+{
+  display: block;
+  padding: 0 20px;
+  color: white;
+
+}
+.content-title b:hover
+{
+  color: #a8b8c4;
+}
+.card-button{
+  transform: translate(120%,20%);
+  margin-top: 10px;
+  background: #34383f;
+  color:white;
+  font-family: monospace;
+}
