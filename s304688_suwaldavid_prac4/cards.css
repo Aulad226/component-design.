@@ -1,0 +1,110 @@
+body{
+  background: url('bg.jpg') no-repeat center fixed;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-weight: lighter;
+  font-family: sans-serif;
+  line-height: 25px;
+}
+
+.container{
+padding-left:5%;
+padding-right:0%;
+margin-top: 10px;
+}
+
+.top{
+width:95%;
+height: 90px;
+background-color: white;
+padding-top: 10px;
+}
+
+.top img{
+float: left;
+padding-left: 9%;
+}
+
+.content-box{
+margin-top: -15px;
+background-color: #f4f6f9;
+padding-bottom: 15px;
+width: 95%;
+}
+
+.content-box .intro-bg{
+background: url('intro-bg1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 60px;
+margin-bottom: 30px;
+}
+
+.content-box .intro-bg h1{
+padding-top: 16px;
+font-weight: lighter;
+}
+
+.content-box img{
+width: 45%;
+float: left;
+margin: 5% 5% 5% 10%;
+overflow: hidden;
+}
+
+.content-box p {
+padding: 3% 10% 3% 10%;
+font-size: 16px;
+text-align: justify;
+
+}
+
+.content-box span{
+font-size: 18px;
+font-weight: lighter;
+font-family: sans-serif;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 0fr));
+  margin-top: 30px;
+  grid-gap: 25px;
+
+}
+.card-layout{
+  width: 370px;
+  height: 450px;
+  background-color: white;
+}
+
+.card-icon{
+width:100%;
+background-color: lightgrey;
+height: 208.13px;
+
+}
+.card-icon img{
+width: 100%;
+padding: 0;
+margin: 0;
+}
+
+.card-descrip{
+padding: 16px;
+}
+
+.card-layout button {
+width: 100px;
+height: 40px;
+align-self: center;
+
+}
+
+.card-layout button:hover {
+background-color: lightgrey;
+font-weight: bold;
+}
